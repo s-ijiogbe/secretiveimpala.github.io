@@ -52,6 +52,11 @@ nav a:hover {
     margin-left: 20px;
 }
 
+h2 {
+    font-family: 'HvDTrial Brandon Grotesque', 'Open-Sans', sans-serif;
+
+}
+
 
 #world-sketch {
     display: block;
@@ -60,24 +65,20 @@ nav a:hover {
     height: auto;
 }
 
-h2 {
-    font-family: 'HvDTrial Brandon Grotesque', 'Open-Sans', sans-serif;
-
-}
-
 #tagline {
     font-family: 'HvDTrial Brandon Grotesque', 'Open-Sans', sans-serif;
     font-weight: bold;
     color: rgb(91, 60, 91);
-    font-size: 300%;
+    font-size: 200%;
+    margin-bottom: -20px;
 }
 
 main {
-    padding: 0 1rem;
+    margin: 0 2rem;
 }
 
 p {
-    margin: 2rem 2rem;
+    margin: 2rem auto;
 }
 
 footer p {
