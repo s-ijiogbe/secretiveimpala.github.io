@@ -1,0 +1,92 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+header {
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding: 10px 20px;
+    color: white;
+}
+
+#logo {
+    display: block;
+    max-width: 55px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'HvDTrial Brandon Grotesque', 'Open-Sans', sans-serif;
+}
+
+header p {
+    margin: -5px 0 0;
+    padding-top: 5px;
+}
+
+header > nav {
+    margin-left: auto;
+    padding: 20px 0;
+}
+
+nav a {
+    color: #dfdfe2;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #dfdfe2;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+
+#world-sketch {
+    display: block;
+    margin: -50px auto -70px;
+    max-width: 80%;
+    height: auto;
+}
+
+h2 {
+    font-family: 'HvDTrial Brandon Grotesque', 'Open-Sans', sans-serif;
+
+}
+
+#tagline {
+    font-family: 'HvDTrial Brandon Grotesque', 'Open-Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(91, 60, 91);
+    font-size: 300%;
+}
+
+main {
+    padding: 0 1rem;
+}
+
+p {
+    margin: 2rem 2rem;
+}
+
+footer p {
+    text-align: center;
+    margin: 20% auto 5%;
+}
+
+footer a {
+    color: black;
+}
+
+
